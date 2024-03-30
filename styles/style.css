@@ -16,6 +16,7 @@ button {
   font-size: 20px;
   padding: 20px 25px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .container {
@@ -192,3 +193,81 @@ header {
 }
 
 /* footer section */
+footer {
+  /* width: 1600px; */
+  height: 577px;
+  background: var(--Dark-01, #151414);
+  flex-shrink: 0;
+  color: #f8f8f8;
+}
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 330px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-container .future-description * {
+  margin-bottom: 16px;
+}
+
+.footer-container .future-description h2 {
+  margin-top: 130px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-container .social-link a {
+  margin-right: 20px;
+}
+
+form input {
+  display: block;
+}
+
+.footer-container .subscribe h3 {
+  margin-top: 130px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer-container .subscribe .email {
+  /* color: var(--Dark-07, #f3f3f3); */
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 21px 158px 21px 21px;
+  background-color: #151414;
+  color: white;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.footer-container .subscribe input[type="submit"] {
+  border-radius: 8px;
+  background: #005fac;
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 35px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer-container .subscribe input[type="submit"]:hover {
+  background-color: #0763f7fe;
+}
