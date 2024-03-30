@@ -83,7 +83,7 @@ header {
 
 .failure-flex .failure-text h2 {
   width: 288px;
-  color: var(--Dark-01, #151414);
+  color: #151414;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -124,5 +124,45 @@ header {
   margin-bottom: 16px;
 }
 
-
 /* plan section */
+
+#plan .plan-container .plan-heading {
+  text-align: center;
+  color: #151414;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+#plan .plan-container .plan-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#plan .plan-container .plan-description .description * {
+  margin-bottom: 17px;
+}
+
+#plan .plan-container .plan-description h3 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#plan .plan-container .plan-description p {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* contact section */
